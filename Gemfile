@@ -6,12 +6,19 @@ gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 
 ##################################################################
-# THis file needs to be CHANGed
-group :development do
-  gem 'sqlite3'
-end
+
+gem 'pg'    # Lets you use
+# THis file needs to be CHANGed (TAKE IT OUT WHEN USING PG)
+# group :development do
+  # gem 'sqlpro3'
+  # gem 'mysql2'
+  # gem 'pg'
+
+  # Change to database
+# end
 group :production do
-  gem 'pg'
+  # gem 'pg'
+  gem 'rails_12factor'
 end
 
 
