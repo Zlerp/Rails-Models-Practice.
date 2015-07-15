@@ -7,7 +7,8 @@ gem 'rails', '4.2.3'
 
 ##################################################################
 
-gem 'pg'    # Lets you use
+gem 'pg'    # Lets you use postgresql
+gem 'rails_12factor'  # Shows The SQL query when ran.
 # THis file needs to be CHANGed (TAKE IT OUT WHEN USING PG)
 # group :development do
   # gem 'sqlpro3'
